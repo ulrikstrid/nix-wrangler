@@ -283,13 +283,13 @@ let
         sha512 = "3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==";
       };
     };
-    "@types/node-20.11.26" = {
+    "@types/node-20.11.27" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.11.26";
+      version = "20.11.27";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.11.26.tgz";
-        sha512 = "YwOMmyhNnAWijOBQweOJnQPl068Oqd4K3OFbTc6AHJwzweUwwWG3GIFY74OKks2PJUDkQPeddOQES9mLn1CTEQ==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.11.27.tgz";
+        sha512 = "qyUZfMnCg1KEz57r7pzFtSGt49f6RPkPBis3Vo4PbS7roQEDn22hiHzl/Lo1q4i4hDEgBJmBF/NTNg2XR0HbFg==";
       };
     };
     "@types/node-forge-1.3.11" = {
@@ -2180,7 +2180,7 @@ in
       sources."@jridgewell/resolve-uri-3.1.2"
       sources."@jridgewell/sourcemap-codec-1.4.15"
       sources."@jridgewell/trace-mapping-0.3.9"
-      sources."@types/node-20.11.26"
+      sources."@types/node-20.11.27"
       sources."@types/node-forge-1.3.11"
       sources."acorn-8.11.3"
       sources."acorn-walk-8.3.2"

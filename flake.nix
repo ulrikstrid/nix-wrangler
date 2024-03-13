@@ -15,7 +15,7 @@
         pkgs = nixpkgs.legacyPackages.${system};
         nodejs = pkgs.nodejs_18;
         inherit (pkgs.lib) extends makeExtensible;
-        node-packages = final: import ./default.nix {
+        node-packages = final: import ./generated/default.nix {
           inherit pkgs nodejs system;
         };
         nodePackages = makeExtensible (extends

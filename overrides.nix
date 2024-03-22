@@ -19,40 +19,40 @@ final: prev: {
         name = "_at_cloudflare_slash_workerd-linux-64";
         packageName = "@cloudflare/workerd-linux-64";
         # Should be same version as workerd
-        version = "1.20240304.0";
+        version = "1.20240314.0";
         src = fetchurl {
-          url = "https://registry.npmjs.org/@cloudflare/workerd-linux-64/-/workerd-linux-64-1.20240304.0.tgz";
-          sha512 = "12sb1dvyr570isrrpnqc0hpdp18q66hmapli5q9hwh6j3fzjfvycbzpxbib38a17857xf6z5ss1x4p3fn8xnf7p68g54k1xpk6l8l0v";
+          url = "https://registry.npmjs.org/@cloudflare/workerd-linux-64/-/workerd-linux-64-1.20240314.0.tgz";
+          sha512 = "0iwdf07h5s843ml6b1zfys5bkbckhg9v3s5pnrddmvanal6lp6vw6amn9n71nk6qb6m92m32lhayh870yqxqvbkj6a666551xv1vxnl";
         };
       };
       linuxWorkerdArm = {
         name = "_at_cloudflare_slash_workerd-linux-arm64";
         packageName = "@cloudflare/workerd-linux-arm64";
         # Should be same version as workerd
-        version = "1.20240304.0";
+        version = "1.20240314.0";
         src = fetchurl {
-          url = "https://registry.npmjs.org/@cloudflare/workerd-linux-arm64/-/workerd-linux-arm64-1.20240304.0.tgz";
-          sha512 = "3rqwdmq4ifjfy0krx11dvb1l6a2fwcv6mgzcwph912n2vcfcbwlmmlvxivg71nfnqs2i5gnazf06rr3ahidr1h3x5p39vdvzivkzf9c";
+          url = "https://registry.npmjs.org/@cloudflare/workerd-linux-arm64/-/workerd-linux-arm64-1.20240314.0.tgz";
+          sha512 = "1aqmyv6cxxjz0b2vav4w35qw20dgd40r5s052vg9fi3wyhish0wdshxngin35qnlpfcy4cgkfn90srz0yd85hygn39hwqfawhxv530q";
         };
       };
       darwinWorkerd = {
         name = "_at_cloudflare_slash_workerd-darwin-64";
         packageName = "@cloudflare/workerd-darwin-64";
         # Should be same version as workerd
-        version = "1.20240304.0";
+        version = "1.20240314.0";
         src = fetchurl {
-          url = "https://registry.npmjs.org/@cloudflare/workerd-darwin-64/-/workerd-darwin-64-1.20240304.0.tgz";
-          sha512 = "16zp5mdadjs792rgliffn48x5509gs7sfh2sx23dd5wywj3mbjfbr1s614696963i80rxy1ihfmiw0k1s0dgrnv802a34mkqnzfbwdd";
+          url = "https://registry.npmjs.org/@cloudflare/workerd-darwin-64/-/workerd-darwin-64-1.20240314.0.tgz";
+          sha512 = "1x3sns6043zvmlc34d6zdzvwizlwf81spyvjwhcdqvabszvykr937zh8b3ladxvl0zxcsda8wkw3i1wa6pc2lnnlykk34i6h3mmdp6p";
         };
       };
       darwinWorkerdArm = {
         name = "_at_cloudflare_slash_workerd-darwin-arm64";
         packageName = "@cloudflare/workerd-darwin-arm64";
         # Should be same version as workerd
-        version = "1.20240304.0";
+        version = "1.20240314.0";
         src = fetchurl {
-          url = "https://registry.npmjs.org/@cloudflare/workerd-darwin-arm64/-/workerd-darwin-arm64-1.20240304.0.tgz";
-          sha512 = "0vixmlbwv2bcag1spr92zk52pd5kry5ysgx2xfaip9z7az069pkk37hx60rchm1ybspg1g13nzw6lr3x25fh61p0cgicx8ggg28ww91";
+          url = "https://registry.npmjs.org/@cloudflare/workerd-darwin-arm64/-/workerd-darwin-arm64-1.20240314.0.tgz";
+          sha512 = "2v2zl5cdw0w2hs6fjamzm5a5dg06np5s1jafvb4zras2dw63am6kg0ki25q9fc616c1kvybrskqpyqwrlncq4cnwyhd9506gl7zrbl2";
         };
       };
 

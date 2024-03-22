@@ -13,13 +13,13 @@ let
         sha512 = "lKN2XCfKCmpKb86a1tl4GIwsJYDy9TGuwjhDELLmpKygQhw8X2xR4dusgpC5Tg7q1pB96Eb0rBo81kxSILQMwA==";
       };
     };
-    "@cloudflare/workers-types-4.20240314.0" = {
+    "@cloudflare/workers-types-4.20240320.1" = {
       name = "_at_cloudflare_slash_workers-types";
       packageName = "@cloudflare/workers-types";
-      version = "4.20240314.0";
+      version = "4.20240320.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@cloudflare/workers-types/-/workers-types-4.20240314.0.tgz";
-        sha512 = "eg2dK/tYSiFvQu3sexjB32WEGi3GEmY6pLRF4nrV9Rwi2F2965o6f6604jQY8whhrmNdEoWErSjhuuUld6xgKQ==";
+        url = "https://registry.npmjs.org/@cloudflare/workers-types/-/workers-types-4.20240320.1.tgz";
+        sha512 = "CiYtVpQURPgQqtBKkmOAnfPElVZuD7Xyf1IxKtKp2B4aB9gnooapwJhzeY8c4Ls4u17SgMS0MprOkrgYwzZ6xg==";
       };
     };
     "@cspotcode/source-map-support-0.8.1" = {
@@ -283,13 +283,13 @@ let
         sha512 = "3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==";
       };
     };
-    "@types/node-20.11.28" = {
+    "@types/node-20.11.30" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.11.28";
+      version = "20.11.30";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.11.28.tgz";
-        sha512 = "M/GPWVS2wLkSkNHVeLkrF2fD5Lx5UC4PxA0uZcKc6QqbIQUJyW1jVjueJYi1z8n0I5PxYrtpnPnWglE+y9A0KA==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.11.30.tgz";
+        sha512 = "dHM6ZxwlmuZaRmUPfv1p+KrdD1Dci04FbdEm/9wEMouFqxYoFl5aMkt0VMAUtYRQDyYvD41WJLukhq/ha3YuTw==";
       };
     };
     "@types/node-forge-1.3.11" = {
@@ -1183,13 +1183,13 @@ let
         sha512 = "ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==";
       };
     };
-    "miniflare-3.20240304.2" = {
+    "miniflare-3.20240314.0" = {
       name = "miniflare";
       packageName = "miniflare";
-      version = "3.20240304.2";
+      version = "3.20240314.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/miniflare/-/miniflare-3.20240304.2.tgz";
-        sha512 = "yQ5TBKv7TlvF8khFvvH+1WWk8cBnaLgNzcbJ5DLQOdecxdDxUCVlN38HThd6Nhcz6EY+ckDkww8FkugUbSSpIQ==";
+        url = "https://registry.npmjs.org/miniflare/-/miniflare-3.20240314.0.tgz";
+        sha512 = "vjjiCEgNy4rfE8VP2C9xngT3eQY4HQg5eiXL+I845voM+6m67a7sZaGl2MspANNHXAKVi71m5bAzFgPcb2Jw9w==";
       };
     };
     "minimatch-3.1.2" = {
@@ -2074,13 +2074,13 @@ let
         sha512 = "eDMORYaPNZ4sQIuuYPDHdQvf4gyCF9rEEV/yPxGfwPkRodwEgiMUUXTx/dex+Me0wxx53S+NgUHaP7y3MGlDmg==";
       };
     };
-    "workerd-1.20240304.0" = {
+    "workerd-1.20240314.0" = {
       name = "workerd";
       packageName = "workerd";
-      version = "1.20240304.0";
+      version = "1.20240314.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/workerd/-/workerd-1.20240304.0.tgz";
-        sha512 = "/tYxdypPh9NKQje9r7bgBB73vAQfCQZbEPjNlxE/ml7jNKMHnRZv/D+By4xO0IPAifa37D0sJFokvYOahz1Lqw==";
+        url = "https://registry.npmjs.org/workerd/-/workerd-1.20240314.0.tgz";
+        sha512 = "5vXqDe6vJTMpfPVW8Vtcy2zcVIBnOIMv0D+Z0gVPMPq++KwEyQWzCIVLpIyc28EUc5bW3gEO49E8BN1PQebgfw==";
       };
     };
     "wrappy-1.0.2" = {
@@ -2143,14 +2143,14 @@ in
   wrangler = nodeEnv.buildNodePackage {
     name = "wrangler";
     packageName = "wrangler";
-    version = "3.34.2";
+    version = "3.36.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/wrangler/-/wrangler-3.34.2.tgz";
-      sha512 = "j580WXlOe0GtYdcREym7FLcaaZq9+RZEBuzOtKXx74KKUlEC8cglgf5WWa2C2OpEtJCcrAieEHsNXe7mhy9knA==";
+      url = "https://registry.npmjs.org/wrangler/-/wrangler-3.36.0.tgz";
+      sha512 = "Fywf9RGAePIuIDcsSg4BW+lDUZX1jh2jN+TtmZOwG5Ewdr9dJGP3dxoFa85eQQZP1VLvY4lsqrKy67JqOuP9Gw==";
     };
     dependencies = [
       sources."@cloudflare/kv-asset-handler-0.3.1"
-      sources."@cloudflare/workers-types-4.20240314.0"
+      sources."@cloudflare/workers-types-4.20240320.1"
       sources."@cspotcode/source-map-support-0.8.1"
       sources."@esbuild-plugins/node-globals-polyfill-0.2.3"
       sources."@esbuild-plugins/node-modules-polyfill-0.2.2"
@@ -2180,7 +2180,7 @@ in
       sources."@jridgewell/resolve-uri-3.1.2"
       sources."@jridgewell/sourcemap-codec-1.4.15"
       sources."@jridgewell/trace-mapping-0.3.9"
-      sources."@types/node-20.11.28"
+      sources."@types/node-20.11.30"
       sources."@types/node-forge-1.3.11"
       sources."acorn-8.11.3"
       sources."acorn-walk-8.3.2"
@@ -2213,7 +2213,7 @@ in
       sources."is-number-7.0.0"
       sources."magic-string-0.25.9"
       sources."mime-3.0.0"
-      sources."miniflare-3.20240304.2"
+      sources."miniflare-3.20240314.0"
       sources."ms-2.1.2"
       sources."mustache-4.2.0"
       sources."nanoid-3.3.7"
@@ -2241,7 +2241,7 @@ in
       sources."undici-5.28.3"
       sources."undici-types-5.26.5"
       sources."utf-8-validate-6.0.3"
-      sources."workerd-1.20240304.0"
+      sources."workerd-1.20240314.0"
       sources."ws-8.16.0"
       sources."xxhash-wasm-1.0.2"
       sources."youch-3.3.3"

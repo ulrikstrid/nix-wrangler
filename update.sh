@@ -1,5 +1,8 @@
 #!/usr/bin/env sh
 
+# Update nixpkgs
+nix flake update
+
 # Update wrangler
 nix run nixpkgs#node2nix -- -i node-packages.json -o ./node-packages.nix
 
@@ -32,13 +35,13 @@ echo "Now you need to manually update the overrides.nix:"
 echo ""
 
 echo "linuxWorkerd"
-printf "url = \"%s\"\nsha512 = \"%s\"\n\n" "$LINUX_X86_URL" "$LINUX_X86_SHA"
+printf "          url = \"%s\";\n          sha512 = \"%s\";\n\n" "$LINUX_X86_URL" "$LINUX_X86_SHA"
 
 echo "linuxWorkerdArm"
-printf "url = \"%s\"\nsha512 = \"%s\"\n\n" "$LINUX_ARM_URL" "$LINUX_ARM_SHA"
+printf "          url = \"%s\";\n          sha512 = \"%s\";\n\n" "$LINUX_ARM_URL" "$LINUX_ARM_SHA"
 
 echo "darwinWorkerd"
-printf "url = \"%s\"\nsha512 = \"%s\"\n\n" "$DARWIN_X86_URL" "$DARWIN_X86_SHA"
+printf "          url = \"%s\";\n          sha512 = \"%s\";\n\n" "$DARWIN_X86_URL" "$DARWIN_X86_SHA"
 
 echo "darwinWorkerdArm"
-printf "url = \"%s\"\nsha512 = \"%s\"\n\n" "$DARWIN_ARM_URL" "$DARWIN_ARM_SHA"
+printf "          url = \"%s\";\n          sha512 = \"%s\";\n\n" "$DARWIN_ARM_URL" "$DARWIN_ARM_SHA"

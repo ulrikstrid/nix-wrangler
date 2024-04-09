@@ -13,13 +13,13 @@ let
         sha512 = "lKN2XCfKCmpKb86a1tl4GIwsJYDy9TGuwjhDELLmpKygQhw8X2xR4dusgpC5Tg7q1pB96Eb0rBo81kxSILQMwA==";
       };
     };
-    "@cloudflare/workers-types-4.20240320.1" = {
+    "@cloudflare/workers-types-4.20240405.0" = {
       name = "_at_cloudflare_slash_workers-types";
       packageName = "@cloudflare/workers-types";
-      version = "4.20240320.1";
+      version = "4.20240405.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@cloudflare/workers-types/-/workers-types-4.20240320.1.tgz";
-        sha512 = "CiYtVpQURPgQqtBKkmOAnfPElVZuD7Xyf1IxKtKp2B4aB9gnooapwJhzeY8c4Ls4u17SgMS0MprOkrgYwzZ6xg==";
+        url = "https://registry.npmjs.org/@cloudflare/workers-types/-/workers-types-4.20240405.0.tgz";
+        sha512 = "sEVOhyOgXUwfLkgHqbLZa/sfkSYrh7/zLmI6EZNibPaVPvAnAcItbNNl3SAlLyLKuwf8m4wAIAgu9meKWCvXjg==";
       };
     };
     "@cspotcode/source-map-support-0.8.1" = {
@@ -283,13 +283,13 @@ let
         sha512 = "3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==";
       };
     };
-    "@types/node-20.11.30" = {
+    "@types/node-20.12.6" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.11.30";
+      version = "20.12.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.11.30.tgz";
-        sha512 = "dHM6ZxwlmuZaRmUPfv1p+KrdD1Dci04FbdEm/9wEMouFqxYoFl5aMkt0VMAUtYRQDyYvD41WJLukhq/ha3YuTw==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.12.6.tgz";
+        sha512 = "3KurE8taB8GCvZBPngVbp0lk5CKi8M9f9k1rsADh0Evdz5SzJ+Q+Hx9uHoFGsLnLnd1xmkDQr2hVhlA0Mn0lKQ==";
       };
     };
     "@types/node-forge-1.3.11" = {
@@ -1183,13 +1183,13 @@ let
         sha512 = "ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==";
       };
     };
-    "miniflare-3.20240314.0" = {
+    "miniflare-3.20240404.0" = {
       name = "miniflare";
       packageName = "miniflare";
-      version = "3.20240314.0";
+      version = "3.20240404.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/miniflare/-/miniflare-3.20240314.0.tgz";
-        sha512 = "vjjiCEgNy4rfE8VP2C9xngT3eQY4HQg5eiXL+I845voM+6m67a7sZaGl2MspANNHXAKVi71m5bAzFgPcb2Jw9w==";
+        url = "https://registry.npmjs.org/miniflare/-/miniflare-3.20240404.0.tgz";
+        sha512 = "+FOTcztPMW3akmucX4vE0PWMNvP4JBwl4s9ieA84fcOaDtTbtfU1rHXpcacj16klpUpvSnD6xd8Sjsn6SJXPfg==";
       };
     };
     "minimatch-3.1.2" = {
@@ -1489,13 +1489,13 @@ let
         sha512 = "LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==";
       };
     };
-    "path-to-regexp-6.2.1" = {
+    "path-to-regexp-6.2.2" = {
       name = "path-to-regexp";
       packageName = "path-to-regexp";
-      version = "6.2.1";
+      version = "6.2.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-6.2.1.tgz";
-        sha512 = "JLyh7xT1kizaEvcaXOQwOc2/Yhw6KZOvPf1S8401UyLk86CU79LN3vl7ztXGm/pZ+YjoyAJ4rxmHwbkBXJX+yw==";
+        url = "https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-6.2.2.tgz";
+        sha512 = "GQX3SSMokngb36+whdpRXE+3f9V8UzyAorlYvOGx87ufGHehNTn5lCxrKtLyZ4Yl/wEKnNnr98ZzOwwDZV5ogw==";
       };
     };
     "performance-now-2.1.0" = {
@@ -1975,13 +1975,13 @@ let
         sha512 = "ZiLtQrdrFvWVXW5wickjtHiyOkn+cG74B0r33DQ2vJuz12FsFO7dU2q0dumrrYk6ny4wl2Vjsodpxk0+Z10/rA==";
       };
     };
-    "undici-5.28.3" = {
+    "undici-5.28.4" = {
       name = "undici";
       packageName = "undici";
-      version = "5.28.3";
+      version = "5.28.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/undici/-/undici-5.28.3.tgz";
-        sha512 = "3ItfzbrhDlINjaP0duwnNsKpDQk3acHI3gVJ1z4fmwMK31k5G9OVIAMLSIaP6w4FaGkaAkN6zaQO9LUvZ1t7VA==";
+        url = "https://registry.npmjs.org/undici/-/undici-5.28.4.tgz";
+        sha512 = "72RFADWFqKmUb2hmmvNODKL3p9hcB6Gt2DOQMis1SEBaV6a4MH8soBvzg+95CYhCKPFedut2JY9bMfrDl9D23g==";
       };
     };
     "undici-types-5.26.5" = {
@@ -2074,13 +2074,13 @@ let
         sha512 = "eDMORYaPNZ4sQIuuYPDHdQvf4gyCF9rEEV/yPxGfwPkRodwEgiMUUXTx/dex+Me0wxx53S+NgUHaP7y3MGlDmg==";
       };
     };
-    "workerd-1.20240314.0" = {
+    "workerd-1.20240404.0" = {
       name = "workerd";
       packageName = "workerd";
-      version = "1.20240314.0";
+      version = "1.20240404.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/workerd/-/workerd-1.20240314.0.tgz";
-        sha512 = "5vXqDe6vJTMpfPVW8Vtcy2zcVIBnOIMv0D+Z0gVPMPq++KwEyQWzCIVLpIyc28EUc5bW3gEO49E8BN1PQebgfw==";
+        url = "https://registry.npmjs.org/workerd/-/workerd-1.20240404.0.tgz";
+        sha512 = "U4tfnvBcPMsv7pmRGuF0J5UnoZi6tbc64tXNfyijI74r6w6Vlb2+a6eibdQL8g0g46+4vjuTKME9G5RvSvdc8g==";
       };
     };
     "wrappy-1.0.2" = {
@@ -2143,14 +2143,14 @@ in
   wrangler = nodeEnv.buildNodePackage {
     name = "wrangler";
     packageName = "wrangler";
-    version = "3.36.0";
+    version = "3.48.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/wrangler/-/wrangler-3.36.0.tgz";
-      sha512 = "Fywf9RGAePIuIDcsSg4BW+lDUZX1jh2jN+TtmZOwG5Ewdr9dJGP3dxoFa85eQQZP1VLvY4lsqrKy67JqOuP9Gw==";
+      url = "https://registry.npmjs.org/wrangler/-/wrangler-3.48.0.tgz";
+      sha512 = "Wv7JS6FyX1j9HkaM6WL3fmTzBMAYc4hPSyZCuxuH55hkJDX/7ts+YAgsaN1U8rKoDrV3FVSgBfI9TyqP9iuM8Q==";
     };
     dependencies = [
       sources."@cloudflare/kv-asset-handler-0.3.1"
-      sources."@cloudflare/workers-types-4.20240320.1"
+      sources."@cloudflare/workers-types-4.20240405.0"
       sources."@cspotcode/source-map-support-0.8.1"
       sources."@esbuild-plugins/node-globals-polyfill-0.2.3"
       sources."@esbuild-plugins/node-modules-polyfill-0.2.2"
@@ -2180,7 +2180,7 @@ in
       sources."@jridgewell/resolve-uri-3.1.2"
       sources."@jridgewell/sourcemap-codec-1.4.15"
       sources."@jridgewell/trace-mapping-0.3.9"
-      sources."@types/node-20.11.30"
+      sources."@types/node-20.12.6"
       sources."@types/node-forge-1.3.11"
       sources."acorn-8.11.3"
       sources."acorn-walk-8.3.2"
@@ -2213,7 +2213,7 @@ in
       sources."is-number-7.0.0"
       sources."magic-string-0.25.9"
       sources."mime-3.0.0"
-      sources."miniflare-3.20240314.0"
+      sources."miniflare-3.20240404.0"
       sources."ms-2.1.2"
       sources."mustache-4.2.0"
       sources."nanoid-3.3.7"
@@ -2221,7 +2221,7 @@ in
       sources."node-gyp-build-4.8.0"
       sources."normalize-path-3.0.0"
       sources."path-parse-1.0.7"
-      sources."path-to-regexp-6.2.1"
+      sources."path-to-regexp-6.2.2"
       sources."picomatch-2.3.1"
       sources."printable-characters-1.0.42"
       sources."readdirp-3.6.0"
@@ -2238,10 +2238,10 @@ in
       sources."supports-preserve-symlinks-flag-1.0.0"
       sources."to-regex-range-5.0.1"
       sources."tslib-2.6.2"
-      sources."undici-5.28.3"
+      sources."undici-5.28.4"
       sources."undici-types-5.26.5"
       sources."utf-8-validate-6.0.3"
-      sources."workerd-1.20240314.0"
+      sources."workerd-1.20240404.0"
       sources."ws-8.16.0"
       sources."xxhash-wasm-1.0.2"
       sources."youch-3.3.3"

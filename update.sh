@@ -3,6 +3,8 @@
 # Update nixpkgs
 nix flake update
 
+INITIAL_WORKERD_VERSION=$(grep "workerd-" ./generated/node-packages.nix | awk -e'{ print gensub(/.*([0-9]\.[0-9]+\.[0-9]).*/, "\\1", "g", $1);}' | head -n 1)
+
 # Update wrangler
 nix run nixpkgs#node2nix -- -i node-packages.json -o ./node-packages.nix
 
@@ -27,21 +29,20 @@ LINUX_ARM_SHA=$(nix-prefetch-url --type sha512 "$LINUX_ARM_URL")
 DARWIN_X86_SHA=$(nix-prefetch-url --type sha512 "$DARWIN_X86_URL")
 DARWIN_ARM_SHA=$(nix-prefetch-url --type sha512 "$DARWIN_ARM_URL")
 
-# TODO: Can we automate this part as well?
-# Print manual steps
-echo ""
-echo ""
-echo "Now you need to manually update the overrides.nix:"
-echo ""
+sed -i "24s%.*%          url = \"$LINUX_X86_URL\";%" overrides.nix
+sed -i "25s%.*%          sha512 = \"$LINUX_X86_SHA\";%" overrides.nix
 
-echo "linuxWorkerd"
-printf "          url = \"%s\";\n          sha512 = \"%s\";\n\n" "$LINUX_X86_URL" "$LINUX_X86_SHA"
+sed -i "34s%.*%          url = \"$LINUX_ARM_URL\";%" overrides.nix
+sed -i "35s%.*%          sha512 = \"$LINUX_ARM_SHA\";%" overrides.nix
 
-echo "linuxWorkerdArm"
-printf "          url = \"%s\";\n          sha512 = \"%s\";\n\n" "$LINUX_ARM_URL" "$LINUX_ARM_SHA"
+sed -i "44s%.*%          url = \"$DARWIN_X86_URL\";%" overrides.nix
+sed -i "45s%.*%          sha512 = \"$DARWIN_X86_SHA\"%;" overrides.nix
 
-echo "darwinWorkerd"
-printf "          url = \"%s\";\n          sha512 = \"%s\";\n\n" "$DARWIN_X86_URL" "$DARWIN_X86_SHA"
+sed -i "54s%.*%          url = \"$DARWIN_ARM_URL\";%" overrides.nix
+sed -i "55s%.*%          sha512 = \"$DARWIN_ARM_SHA\";%" overrides.nix
 
-echo "darwinWorkerdArm"
-printf "          url = \"%s\";\n          sha512 = \"%s\";\n\n" "$DARWIN_ARM_URL" "$DARWIN_ARM_SHA"
+git add .
+git commit -m "workerd: $INITIAL_WORKERD_VERSION -> $WORKERD_VERSION"
+git push
+
+echo "Done"

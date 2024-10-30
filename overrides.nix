@@ -42,7 +42,7 @@ final: prev: {
         version = "1.20241022.0";
         src = fetchurl {
           url = "https://registry.npmjs.org/@cloudflare/workerd-darwin-64/-/workerd-darwin-64-1.20241022.0.tgz";
-          sha512 = "2rwagdkm7h4481ky0nzfxrm3kwlyvajvr963g12f54vazmy733g8pl5gpfdl6rxj3lm8rcai6bimhyi140ks8i5h09j76zvgnx5ilyl"
+          sha512 = "2rwagdkm7h4481ky0nzfxrm3kwlyvajvr963g12f54vazmy733g8pl5gpfdl6rxj3lm8rcai6bimhyi140ks8i5h09j76zvgnx5ilyl";
         };
       };
       darwinWorkerdArm = {

@@ -36,7 +36,7 @@ sed -i "34s%.*%          url = \"$LINUX_ARM_URL\";%" overrides.nix
 sed -i "35s%.*%          sha512 = \"$LINUX_ARM_SHA\";%" overrides.nix
 
 sed -i "44s%.*%          url = \"$DARWIN_X86_URL\";%" overrides.nix
-sed -i "45s%.*%          sha512 = \"$DARWIN_X86_SHA\"%;" overrides.nix
+sed -i "45s%.*%          sha512 = \"$DARWIN_X86_SHA\";%" overrides.nix
 
 sed -i "54s%.*%          url = \"$DARWIN_ARM_URL\";%" overrides.nix
 sed -i "55s%.*%          sha512 = \"$DARWIN_ARM_SHA\";%" overrides.nix

@@ -1,1 +1,1 @@
-["wrangler", "node2nix"]
+[{ "wrangler": "3.59" }, "node2nix"]

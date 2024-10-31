@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
+set -e
 
 # Update nixpkgs
 nix flake update
@@ -42,6 +43,9 @@ sed -i "54s%.*%          url = \"$DARWIN_ARM_URL\";%" overrides.nix
 sed -i "55s%.*%          sha512 = \"$DARWIN_ARM_SHA\";%" overrides.nix
 
 git add .
+
+nix run .\#wrangler -- --version
+
 git commit -m "workerd: $INITIAL_WORKERD_VERSION -> $WORKERD_VERSION"
 git push
 
